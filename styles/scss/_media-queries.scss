@@ -1,0 +1,172 @@
+@media  screen and (max-width:767px) {
+
+     /* NavBar */
+    .miNav {
+        font-size: 18px;
+        .barrita {
+            .barritajr {
+                .barritachild{
+                    @include miflexbox(flex, column, center);
+                }
+            }
+        }
+    }
+
+    /* HOME-BIO */
+    .contenedorHome {
+        padding-top: 10%;
+        .boxBannerMasImg {
+            .boxBanner {
+                height: 200px;
+                padding-top: 10%;
+                background-image: url(././../assets/banner22.png);
+            }
+            .boxImagenPrincipal {
+                .imagenPrincipal {
+                        width: 60%;
+                }
+        }
+        }
+        .boxSectionBio {
+            margin: 2%;
+            #bioFioen {
+                .tituloBio {
+                        margin-top: 10%;
+                        font-size: 250%;
+                }
+        }
+            #bioFio {
+                .tituloBio {
+                        margin-top: 10%;
+                        font-size: 250%;
+                }
+        }
+        }
+    }
+
+    /* Fotos */
+    .miGaleria {
+        padding: 8%;
+    }
+    .desfileBox {
+        .miClose {
+            top: 60px;
+        }
+    }
+     /* Reel */
+     .boxReel {
+        padding-top: 30%;
+        .reelYoutube{
+            width: 318px;
+            height: 179px;
+        }
+    }
+    
+    /* Contacto */
+    .gridContacto {
+        justify-content: center;
+        margin-top: 10%;
+        gap: 3%;
+        display: grid;  
+        grid-template-areas:    "cardContacto"
+                                "formContacto";             
+        .datosContacto {
+        margin-bottom: 10%;
+        }
+        .formularioContacto {
+        margin-bottom: 10%;
+            .boxBotonesForm {
+                margin-bottom: 10%;
+            }    
+        }
+    }
+
+    /* Botones */
+    .miBoton {
+        width: 6rem;
+    }
+
+    /* Footer */
+    .miFooter {
+        .formFooter{
+            margin-top: 4%;
+                .formEmail {
+                    width: 60%;
+                }
+       
+                .boxBtnFooter {
+                    text-align: center;
+                    width: 40%;
+                }
+            }
+        .socialMediaIcon {
+            .boxIcons {
+                margin-top: 4%;
+                margin-bottom: 4%;
+                width: 50%;
+                font-size: 100%;
+            }
+        }
+    }
+
+    .bodyBox {
+        .cv {
+            margin-top: 10%;
+        }
+    }
+}
+
+@media  screen and (min-height:1000px) {
+/* HOME-BIO */
+.contenedorHome {
+    margin-top: 0%;
+    padding-top: 0%;
+    .boxBannerMasImg {
+        padding-top: 0%;
+        .boxBanner {
+            height: 350px;
+            background-image: url(././../assets/banner33.png);
+        }
+    }
+}
+
+/* Reel */
+.boxReel {
+padding-top: 35%;
+}
+
+/* Contacto */
+.boxContacto {
+padding-top: 20%;
+padding-bottom: 26%;
+}
+}
+
+@media  screen and (max-width:290px) {
+    /* Reel */
+    .boxReel {
+        padding-top: 50%;
+        .reelYoutube{
+            width: 250px;
+            height: 150px;
+        }
+    }
+
+    }
+
+    @media only screen and (min-width: 1610px) {
+        /* NavBar */
+    .miNav {
+        padding-bottom: 3%;
+    }
+        .contenedorHome {
+            margin-top: 1%;
+            padding-top: 20%;
+            .boxBannerMasImg {
+                .boxBanner {
+                    padding-top: 5%;
+                    background-image: url(././../assets/banner33.png);
+                }
+            }
+        }
+    }

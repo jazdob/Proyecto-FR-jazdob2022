@@ -1,0 +1,56 @@
+.boxContacto {
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    @include miflexbox(flex, row, center);
+    .gridContacto {
+        width: 80%;
+        color: $withe;
+        .datosContacto {
+            grid-area: cardContacto;
+            padding: 3%;
+            border: 0.2px solid $lila-power;
+            margin-right: 10%;
+            background-color: $black;
+            -webkit-animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;
+            animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;
+            .imgContacto {
+                padding: 6%;
+                border-radius: 20px;
+            }
+            .cardDatosContacto {
+                text-align: center;
+                font-size: 20px;
+                .nombreFriore {
+                    font-size: 35px;
+                }
+            }
+        }
+        .formularioContacto {
+            grid-area: formContacto;
+            padding: 3%;
+            border: 0.5px solid $lila-power;
+            border-radius: 6px;
+            -webkit-animation:fade-in-right .6s cubic-bezier(.39,.575,.565,1.000) both;
+            animation:fade-in-right .6s cubic-bezier(.39,.575,.565,1.000) both;
+            .miInputContacto {
+                border-radius: 20px;
+                border: 1px solid $lila-power;
+                box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(217, 169, 248, 0.842);
+            }
+            
+            .boxTildesito {
+                padding-top: 2%;
+                padding-bottom: 10%;
+                .tildesito {
+                    background-color: $lila-power;
+                    border: 1px solid $lila-power;
+                    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(217, 169, 248, 0.842);
+                }
+            }
+            .boxBotonesForm {
+                @include miflexbox(flex, row, space-around);
+            }
+        }
+    }
+}

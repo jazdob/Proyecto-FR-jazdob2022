@@ -1,0 +1,6 @@
+@mixin miflexbox ($display, $direction, $justifyc) {
+display: $display;
+flex-direction: $direction;
+justify-content: $justifyc;
+}
+    

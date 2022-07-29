@@ -1,0 +1,14 @@
+.boxReel {
+    margin-top: 5%;
+    padding-top: 9%;
+    height: 80vh;
+    -webkit-animation:scale-in-center .8s cubic-bezier(.25,.46,.45,.94) both;
+    animation:scale-in-center .8s cubic-bezier(.25,.46,.45,.94) both;
+
+    @include miflexbox(flex, row, center);
+    .reelYoutube{
+        width: 560px;
+        height: 315px;
+
+    }
+}
