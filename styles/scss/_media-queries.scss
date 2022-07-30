@@ -17,21 +17,22 @@
         padding-top: 10%;
         .boxBannerMasImg {
             .boxBanner {
-                height: 200px;
+                height: 400px;
                 padding-top: 10%;
                 background-image: url(././../assets/banner22.png);
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
-            }
-            .boxImagenPrincipal {
                 .imagenPrincipal {
-                        width: 60%;
+                    width: 60%;
+                    margin-top: 22%;
                 }
-        }
+                
+            }
         }
         .boxSectionBio {
             margin: 2%;
+            padding-top: 20%;
             #bioFioen {
                 .tituloBio {
                         margin-top: 10%;

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   cursor: url(././../assets/cursorlindo.png), auto;
+  background: #000000;
 }
 
 body::-webkit-scrollbar {
@@ -31,23 +32,23 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /* -------HOME------- */
-@-webkit-keyframes slide-in-bottom {
+@-webkit-keyframes fade-in-fwd {
   0% {
-    transform: translateY(1000px);
+    transform: translateZ(-80px);
     opacity: 0;
   }
   100% {
-    transform: translateY(0);
+    transform: translateZ(0);
     opacity: 1;
   }
 }
-@keyframes slide-in-bottom {
+@keyframes fade-in-fwd {
   0% {
-    transform: translateY(1000px);
+    transform: translateZ(-80px);
     opacity: 0;
   }
   100% {
-    transform: translateY(0);
+    transform: translateZ(0);
     opacity: 1;
   }
 }
@@ -245,7 +246,8 @@ body::-webkit-scrollbar-thumb:hover {
   margin-top: 6%;
 }
 .contenedorHome .boxBannerMasImg .boxBanner {
-  height: 250px;
+  height: 100vh;
+  text-align: center;
   padding-bottom: 10%;
   padding-top: 10%;
   background-image: url(././../assets/banner2.png);
@@ -253,22 +255,16 @@ body::-webkit-scrollbar-thumb:hover {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.contenedorHome .boxBannerMasImg .boxImagenPrincipal {
-  background-color: rgb(17, 17, 17);
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-.contenedorHome .boxBannerMasImg .boxImagenPrincipal .imagenPrincipal {
+.contenedorHome .boxBannerMasImg .boxBanner .imagenPrincipal {
   width: 40%;
-  transition: transform 0.6s;
-}
-.contenedorHome .boxBannerMasImg .boxImagenPrincipal .imagenPrincipal:hover {
-  transform: scale(1.04);
+  margin-top: 18%;
+  -webkit-animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-fwd 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .contenedorHome .boxSectionBio {
   color: #FFFFFF;
   padding: 3%;
-  padding-top: 0%;
+  padding-top: 12%;
   padding-bottom: 0%;
 }
 .contenedorHome .boxSectionBio #bioFioen {
@@ -403,11 +399,15 @@ body::-webkit-scrollbar-thumb:hover {
   right: 40px;
   font-size: 25px;
   font-weight: bold;
+  background-color: transparent;
   color: #c39ae0;
   transition: background-color 0.5s;
 }
 .desfileBox .miClose:hover {
   color: #be78f0;
+}
+.desfileBox .miClose i {
+  background-color: transparent;
 }
 .desfileBox .miNext {
   font-size: 25px;
@@ -415,10 +415,14 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 2%;
   font-weight: bold;
   color: #c39ae0;
+  background-color: transparent;
   transition: background-color 0.5s;
 }
 .desfileBox .miNext:hover {
   color: #be78f0;
+}
+.desfileBox .miNext i {
+  background-color: transparent;
 }
 
 .boxReel {
@@ -580,18 +584,20 @@ body::-webkit-scrollbar-thumb:hover {
     padding-top: 10%;
   }
   .contenedorHome .boxBannerMasImg .boxBanner {
-    height: 200px;
+    height: 400px;
     padding-top: 10%;
     background-image: url(././../assets/banner22.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .contenedorHome .boxBannerMasImg .boxImagenPrincipal .imagenPrincipal {
+  .contenedorHome .boxBannerMasImg .boxBanner .imagenPrincipal {
     width: 60%;
+    margin-top: 22%;
   }
   .contenedorHome .boxSectionBio {
     margin: 2%;
+    padding-top: 20%;
   }
   .contenedorHome .boxSectionBio #bioFioen .tituloBio {
     margin-top: 10%;

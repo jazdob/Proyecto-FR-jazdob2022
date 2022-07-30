@@ -58,10 +58,14 @@
         right: 40px;
         font-size: 25px;
         font-weight: bold;
+        background-color: transparent;
         color: $lila-light;
         transition: background-color .5s;
         &:hover {
             color: $lila-power;
+        }
+        i {
+            background-color: transparent; 
         }
     }
     .miNext {
@@ -70,9 +74,13 @@
         padding: 2%;
         font-weight: bold;
         color: $lila-light;
+        background-color: transparent;
         transition: background-color .5s;
         &:hover {
             color: $lila-power;
+        }
+        i {
+            background-color: transparent; 
         }
     }
 }

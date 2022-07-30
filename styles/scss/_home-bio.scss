@@ -3,32 +3,27 @@
         margin-top: 6%;
         .boxBannerMasImg {
                 .boxBanner {
-                        height: 250px;
+                        height: 100vh;//250px//
+                        text-align: center;
                         padding-bottom: 10%;
                         padding-top: 10%;
                         background-image: url(././../assets/banner2.png);
                         background-size: contain;
                         background-repeat: no-repeat;
                         background-attachment: fixed;
-                }
-                .boxImagenPrincipal {
-                        background-color: rgb(17, 17, 17);
-                        -webkit-animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
-                        animation:slide-in-bottom .5s cubic-bezier(.25,.46,.45,.94) both;
                         .imagenPrincipal {
                                 width: 40%;
-                                transition: transform 0.6s;
-                                &:hover {
-                                transform: scale(1.04);
-                                }
+                                margin-top: 18%;
+                                -webkit-animation:fade-in-fwd 1s cubic-bezier(.39,.575,.565,1.000) both;
+                                animation:fade-in-fwd 1s cubic-bezier(.39,.575,.565,1.000) both;
                         }
                 }
-        
+               
         }
         .boxSectionBio {
                 color: $withe;
                 padding: 3%;
-                padding-top: 0%;
+                padding-top: 12%;
                 padding-bottom: 0%;
                 #bioFioen {
                         padding-top: 1%;
