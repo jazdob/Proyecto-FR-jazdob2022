@@ -15,17 +15,20 @@
             -webkit-animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;
             animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;
             border: 0.2px solid $lila-power;
+            border-radius: 6px;
             .imgContacto {
                 padding: 6%;
                 border-radius: 20px;
             }
             .cardDatosContacto {
                 text-align: center;
-                font-size: 20px;
-                text-decoration: none;
-                color: $withe;
                 .nombreFriore {
                     font-size: 35px;
+                }
+                .datosFriore {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: $withe;
                 }
             }
         }

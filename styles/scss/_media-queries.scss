@@ -129,6 +129,9 @@
         .boxBanner {
             height: 350px;
             background-image: url(././../assets/banner33.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
     }
 }
@@ -169,6 +172,9 @@ padding-bottom: 26%;
                 .boxBanner {
                     padding-top: 5%;
                     background-image: url(././../assets/banner33.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
                 }
             }
         }
