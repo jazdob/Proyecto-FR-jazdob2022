@@ -12,13 +12,13 @@
                 &:nth-child(#{$tarjetitas}) {
                 animation-delay: 0.09s * $tarjetitas;
                 }
-        } 
+                } 
             .boxImgCv {
                 text-align: justify;
                 background-color: $black;
                 color: $withe;
                 border: 0.01px solid $withe;
-                margin-top: 4%;
+                margin-top: 2%;
                 .imgCv {
                     padding: 5%;
                 }
