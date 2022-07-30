@@ -497,8 +497,10 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: bold;
   text-align: end;
   padding: 4%;
+  margin-bottom: 4%;
 }
 .bodyBox .cv .miCard .boxImgCv .boxMasCv .linkMas {
+  text-decoration: none;
   color: #c39ae0;
 }
 
