@@ -20,6 +20,9 @@
                 height: 200px;
                 padding-top: 10%;
                 background-image: url(././../assets/banner22.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
             }
             .boxImagenPrincipal {
                 .imagenPrincipal {
