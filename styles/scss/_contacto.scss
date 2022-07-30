@@ -9,11 +9,11 @@
         .datosContacto {
             grid-area: cardContacto;
             padding: 3%;
-            border: 0.2px solid $lila-power;
             margin-right: 10%;
             background-color: $black;
             -webkit-animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;
             animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;
+            border: 0.2px solid $lila-power;
             .imgContacto {
                 padding: 6%;
                 border-radius: 20px;
